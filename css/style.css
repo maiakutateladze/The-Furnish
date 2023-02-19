@@ -2,39 +2,109 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #F5F5F5;
+  font-family: 'Kanit', sans-serif;
+
 }
-.bg-image {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/homeimg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-wrap: wrap;
+.header-block-logo {
+  color: black;
+  font-size: 20px;
 }
 .navigation-ul {
   display: flex;
   justify-content: space-between;
+
 }
 .navigation-li {
   padding: 20px;
+  
+}
+.nav-li-item {
+  color: rgb(71, 70, 70);
+
 }
 .burger-bar {
   display: none;
 }
+.bg-image {
+  width: 100%;
+  height: 630px;
+  background-image: url("../images/bgimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  background-position: left center;
+}
 .home-page {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
+  text-align: center;
 }
 
 .right-block-home {
-  background: grey;
-}
-.home-image {
-  width: 100%;
-}
+  /* background: grey; */
+  width: 600px;
+  height: 696px;
 
+}
+.rightblock-home-text1 {
+  font-family: 'Labrada', serif;
+  font-size: 30px;
+  margin-top: 150px;
+  color: rgb(99, 97, 97);
+}
+.rightblock-home-title {
+  font-family: 'Labrada', serif;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rightblock-home-text2 {
+  font-family: 'Labrada', serif;
+  font-size: 20px;
+  color: rgb(99, 97, 97);
+  
+}
+.rightblock-shop {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 220px;
+  background-color: rgb(147, 147, 147);
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Labrada', serif;
+}
+.rightblock-shopnow {
+  font-size: 20px;
+  color: rgb(10, 9, 9);
+}
+/* footer */
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  background-color: #F5F5F5;
+}
+.footer-blockdiv {
+  margin-top: 30px;
+  
+}
+.footer-title {
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 5px;
+}
+.footer-blocka {
+  font-size: 15px;
+  color: rgb(71, 70, 70);
+  font-family: 'Kanit', sans-serif;
+}
 /* colection section-1 */
 
 .working-chair-div {
@@ -208,5 +278,26 @@
   background-color: #F5F5F5;
   font-family: 'Labrada', serif;
     
+}
+/* about-us */
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  
+}
+.leftblock-about{
+  width: 500px;
+  height: 500px;
+}
+.furniture-makers {
+  
+}
+.right-block-about {
+  width: 500px;
+  
+}
+.rightblock-aboutimg {
+  width: 100%;
 }
 

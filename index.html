@@ -9,28 +9,50 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <div class="bg-image">
+    <div>
       <header class="header-block">
         <a href="index.html">
-          <p>The Furnish</p>
+          <p class="header-block-logo">The Furnish</p>
         </a>
         <div>
           <nav class="navigation">
             <ul class="navigation-ul">
-              <li class="navigation-li"><a href="index.html">HOME</a></li>
               <li class="navigation-li">
-                <a href="colection.html">COLECTION</a>
+                <a class="nav-li-item" href="index.html">HOME</a>
               </li>
-              <li class="navigation-li"><a href="about.html">ABOUT</a></li>
               <li class="navigation-li">
-                <a href="purchase-now.html">PURCHASE NOW</a>
+                <a class="nav-li-item" href="colection.html">COLECTION</a>
               </li>
-              <li class="navigation-li"><a href="contact.html">CONTACT</a></li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="about.html">ABOUT</a>
+              </li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="purchase-now.html">PURCHASE NOW</a>
+              </li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="contact.html">CONTACT</a>
+              </li>
             </ul>
           </nav>
           <div class="burger-bar">
@@ -38,19 +60,25 @@
           </div>
         </div>
       </header>
-      <section>
+      <section class="bg-image">
         <div class="home-page">
           <div class="right-block-home">
-            <p>Best Furniture For Your Castle...</p>
-            <h1>Every Piece Comes With a Story</h1>
-            <p>
+            <p class="rightblock-home-text1">
+              Best Furniture For Your Castle...
+            </p>
+            <h1 class="rightblock-home-title">
+              Every Piece Comes With a Story
+            </h1>
+            <p class="rightblock-home-text2">
               Timeless beauty, comfort, craftsmanship, and sustainability are so
               deeply ingrained in all our furniture works that only sight and
               touch are required to understand and fall in love with them.
             </p>
 
-            <div>
-              <a href="purchase-now.html">Shop Now</a>
+            <div class="rightblock-shop">
+              <a class="rightblock-shopnow" href="purchase-now.html"
+                >Shop Now <i class="fa-solid fa-arrow-right"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -58,28 +86,75 @@
     </div>
 
     <footer>
-      <div>
-        <h3>Customer Service</h3>
-        <h5>Contact us</h5>
-        <h5>Warranty</h5>
-        <h5>Privacy policy</h5>
-        <h5>Competitions</h5>
-        <h5>Careers</h5>
-      </div>
-      <div>
-        <h3>Information</h3>
-        <h5>About us</h5>
-        <h5>Inspiration</h5>
-        <h5>Maintenance & care</h5>
-        <h5>Materials</h5>
-        <h5>Configuration</h5>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <h5>+45 55 12 13 02</h5>
-        <h5>info@furnish.dk</h5>
-        <h5>Hylkedamvej 77</h5>
-        <h5>DK-5593 Gelsted, Denmark</h5>
+      <div class="footer-block">
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">Customer Service</h3>
+          <ul class="footer-blocka">
+            <li>
+              <a class="footer-blocka" href="">Contact us</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Warranty</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Privacy policy</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Competitions</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">information</h3>
+          <ul class="footer-blockul">
+            <li>
+              <a class="footer-blocka" href="
+              ">About us</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Inspiration</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Maintenance & care</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Materials</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Configuration</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-blockul">
+            <li>
+              <a class="footer-blocka" href=""><i class="fa-solid fa-phone"></i> +45 55 12 13 02</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">
+                <i class="fa-solid fa-envelope"></i> info@furnish.dk</a
+              >
+            </li>
+            <li>
+              <a class="footer-blocka" href=""
+                ><i class="fa-solid fa-location-dot"></i> DK-5593 Gelsted,
+                Denmark</a
+              >
+            </li>
+            <li>
+              <a class="footer-blocka" href=""
+                ><i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
