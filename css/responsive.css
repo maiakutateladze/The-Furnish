@@ -25,6 +25,7 @@
 @media (min-width: 320px) and (max-width: 1024px) {
     .home-page {
         height: auto;
+        
     }
 }
 
@@ -63,6 +64,79 @@
 /* colection section-1 */
 @media (max-width: 768px) {
     .workin-chair-div {
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .workin-chair-div {
+        height: auto;
+    
+    } 
+    
+    
+}
+@media (max-width: 1024px) {
+    .section2-1div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .section2-1div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .section2-1div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .section2-2div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .section2-2div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .section2-3div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .section2-3div {
+        height: auto;
+        margin-top: 10px;
+    }
+}
+/* about-us */
+@media (max-width: 320px) {
+    .feature-block {
+        height: auto;
+        
+    }
+}
+/* contact */
+@media (max-width: 320px) {
+    .bg-image-contact {
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .information {
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .form-contact {
         height: auto;
     }
 }
