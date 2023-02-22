@@ -1,8 +1,12 @@
+document.getElementById('sendMessage').addEventListener('click', function(){
+    alert("Your message has been sent sucsessfully!");
+ });
+ // burger bar 
 
-// burger bar 
-let navigationElement = documnet.getElementByID("navBar");
-let burgerElement = document.getElementById("burgerBar");
 
-burgerElement.addEventListener("click", function () {
-    navigationElement.classList.toggle("activeNav")
-});
+ let navigationElement = document.getElementById("navBar");
+ let burgerElement = document.getElementById("burgerBar");
+
+ burgerElement.addEventListener("click", function(){
+    navigationElement.classList.toggle("activeNav");
+ });
