@@ -6,4 +6,63 @@
         display: block;
         color: black;
     }
+    .header-block {
+        flex-direction: column;
+    }
+    .navigation-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation.activeNav {
+        display: block;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .bg-image {
+        height: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .home-page {
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .rightblock-shop {
+        height: auto;
+        
+    }
+}
+@media (max-width: 768px) {
+    .rightblock-shop {
+        height: auto;
+       
+    }
+}
+@media (max-width: 480px) {
+    .rightblock-shop {
+        height: auto;
+        
+    }
+}
+@media (max-width: 320px) {
+    .rightblock-shop {
+        height: auto;
+        
+    }
+}
+/* footer block */
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-block {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* colection section-1 */
+@media (max-width: 768px) {
+    .workin-chair-div {
+        height: auto;
+    }
 }

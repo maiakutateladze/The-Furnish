@@ -1,66 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        />
-        <!-- google-fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap"
-          rel="stylesheet"
-        />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/responsive.css" />
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Labrada:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
     <div>
-        <header class="header-block">
-            <a href="index.html">
-              <p class="header-block-logo">The Furnish</p>
-            </a>
-            <div>
-              <nav class="navigation">
-                <ul class="navigation-ul">
-                  <li class="navigation-li">
-                    <a class="nav-li-item" href="index.html">HOME</a>
-                  </li>
-                  <li class="navigation-li">
-                    <a class="nav-li-item" href="colection.html">COLECTION</a>
-                  </li>
-                  <li class="navigation-li">
-                    <a class="nav-li-item" href="about.html">ABOUT</a>
-                  </li>
-                  <li class="navigation-li">
-                    <a class="nav-li-item" href="contact.html">CONTACT</a>
-                  </li>
-                </ul>
-              </nav>
-              <div class="burger-bar">
-                <i class="fa-solid fa-bars"></i>
-              </div>
+      <header class="header-block">
+        <a href="index.html">
+          <p class="header-block-logo">The Furnish</p>
+        </a>
+        <div>
+          <nav class="navigation" id="navBar">
+            <ul class="navigation-ul">
+              <li class="navigation-li">
+                <a class="nav-li-item" href="index.html">HOME</a>
+              </li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="colection.html">COLECTION</a>
+              </li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="about.html">ABOUT</a>
+              </li>
+              <li class="navigation-li">
+                <a class="nav-li-item" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger-bar" id="burgerBar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </header>
+      <section class="bg-image-contact">
+        <div class="information">
+          <p class="information1">Our company is comprised of a dedicated team of professional woodworkers, carpenters, designers and furniture manufacturers with one goal in mind – to craft functional and visually flawless furniture pieces that can meet the needs of any whimsical customers</p>
+        </div>
+        <div class="form-contactus">
+          <h1 class="contactus">CONTACT US</h1>
+        </div>
+        <div class="form-div">
+          <form class="form-wraper" action="">
+            <div class="form-element">
+              <input class="input-element" type="text" id="name" name="name" placeholder="Name">
             </div>
-          </header>
-          <section>
-            
-          </section>
+            <div class="form-element">
+              <input class="input-element" type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-element">
+              <input class="input-element" type="tel" id="phone" name="phone" placeholder="Phone">
+            </div>
+            <div class="form-element">
+              <textarea class="textarea-element" name="message" id="message" cols="50" rows="8" placeholder="Message"></textarea>
+            </div>
+            <button class="btn-submit" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="social-icons">
+          <div class="icon">
+            <a class="iconin" href="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+          <div class="icon">
+            <a class="iconin" href="instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="icon">
+            <a class="iconin" href="twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          
+        </div>
+        
+      </section>
     </div>
-    
-</body>
+    <footer>
+      <div class="footer-block">
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">Customer Service</h3>
+          <ul class="footer-blocka">
+            <li>
+              <a class="footer-blocka" href="">Contact us</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Warranty</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Privacy policy</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Competitions</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">information</h3>
+          <ul class="footer-blockul">
+            <li>
+              <a class="footer-blocka" href="
+              ">About us</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Inspiration</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Maintenance & care</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Materials</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">Configuration</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-blockdiv">
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-blockul">
+            <li>
+              <a class="footer-blocka" href=""><i class="fa-solid fa-phone"></i> +45 55 12 13 02</a>
+            </li>
+            <li>
+              <a class="footer-blocka" href="">
+                <i class="fa-solid fa-envelope"></i> info@furnish.dk</a
+              >
+            </li>
+            <li>
+              <a class="footer-blocka" href=""
+                ><i class="fa-solid fa-location-dot"></i> DK-5593 Gelsted,
+                Denmark</a
+              >
+            </li>
+            <li>
+              <a class="footer-blocka" href=""
+                ><i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
