@@ -4,7 +4,7 @@
     }
     .burger-bar {
         display: block;
-        color: black;
+        color: rgb(89, 88, 88);
     }
     .header-block {
         flex-direction: column;
